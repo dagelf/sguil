@@ -314,6 +314,17 @@ example_agent.tcl: Sguil now supports a simple interface for new agent types. Ex
                    mailing list or join #snort-gui on irc.freenode.net. 
 
 ############
+#  ISSUES  #
+############
+
+If mysqltcl is not detected, make sure you are not using Anaconda or Miniconda, which
+overrides TCL. 
+
+Prerequisites to run on Ubuntu are:
+
+`apt-get install -y tcl mysqltcl tcllib tclx tcl-tls`
+
+############
 #   DONE!  #
 ############
 
